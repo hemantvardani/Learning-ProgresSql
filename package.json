@@ -1,0 +1,19 @@
+{
+  "name": "learning_postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"tsc && node ./dist/index.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "@types/pg": "^8.11.6",
+    "pg": "^8.12.0",
+    "typescript": "^5.5.3"
+  }
+}
